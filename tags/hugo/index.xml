@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on Mohamed Chaabi</title>
-    <link>http://localhost:1313/tags/hugo/</link>
+    <link>https://chaabimohamed.github.io/cv.github.io/tags/hugo/</link>
     <description>Recent content in hugo on Mohamed Chaabi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Jan 2023 22:37:08 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Jan 2023 22:37:08 +0100</lastBuildDate><atom:link href="https://chaabimohamed.github.io/cv.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How did I create this site with Hugo</title>
-      <link>http://localhost:1313/blogs/howicreatethis/</link>
+      <link>https://chaabimohamed.github.io/cv.github.io/blogs/howicreatethis/</link>
       <pubDate>Sat, 28 Jan 2023 22:37:08 +0100</pubDate>
       
-      <guid>http://localhost:1313/blogs/howicreatethis/</guid>
+      <guid>https://chaabimohamed.github.io/cv.github.io/blogs/howicreatethis/</guid>
       <description>Hugo is the best choice to build a simple static site, and of course, Hugo is the most popular static site generator, which has a great community that believes in it and supports making it as good as possible. Hugo is also using Markdown, which makes building static sites fast, flexible, and easy to modify. Also, you can use Hugo to make a site at a low cost if you use it with GitHub as a host and connect it with your domain name from a domain name provider such as GoDaddy, with no cost if you use GitHub Pages.</description>
     </item>
     
