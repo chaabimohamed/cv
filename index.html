@@ -32,7 +32,7 @@
 <meta property="og:title" content="Mohamed Chaabi" />
 <meta property="og:description" content="my resume site" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://chaabimohamed.github.io/" /><meta property="og:site_name" content="resume" />
+<meta property="og:url" content="https://chaabimohamed.github.io/cv/" /><meta property="og:site_name" content="resume" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Mohamed Chaabi"/>
@@ -113,7 +113,7 @@ Mohamed Chaabi
   </title>
 </head>
 
-<body class="light" onload="loading()">
+<body class="light">
   
   
 <script>
@@ -121,7 +121,7 @@ Mohamed Chaabi
         document.body.classList.add('dark');
     } else if (localStorage.getItem("pref-theme") === "light") {
         document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -133,7 +133,7 @@ Mohamed Chaabi
     <nav class="pt-3 navbar navbar-expand-lg animate">
         <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
             
-            <a class="navbar-brand primary-font text-wrap" href="./">
+            <a class="navbar-brand primary-font text-wrap" href="./cv">
                 
                 Simo
                 
@@ -156,7 +156,7 @@ Mohamed Chaabi
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="./#about" aria-label="about">
+                        <a class="nav-link" href="./cv#about" aria-label="about">
                             About Me
                         </a>
                     </li>
@@ -166,7 +166,7 @@ Mohamed Chaabi
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="./#education"
+                        <a class="nav-link" href="./cv#education"
                             aria-label="education">
                             Education
                         </a>
@@ -175,7 +175,7 @@ Mohamed Chaabi
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="./#projects"
+                        <a class="nav-link" href="./cv#projects"
                             aria-label="projects">
                             Projects
                         </a>
@@ -186,7 +186,7 @@ Mohamed Chaabi
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="./#contact"
+                        <a class="nav-link" href="./cv#contact"
                             aria-label="contact">
                             Contact
                         </a>
@@ -198,7 +198,7 @@ Mohamed Chaabi
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="./blogs" title="Blog posts">
+                        <a class="nav-link" href="./cv/blogs" title="Blog posts">
                             
                             Blog
                         </a>
@@ -262,7 +262,7 @@ Mohamed Chaabi
                         </a>
                         
                     </div>
-                    <div class="col-auto px-0 h-100"><span id="loading-icons" style="display: none;">
+                    <div class="col-auto px-0 h-100"><span>
     
     <span class="px-1">
         <a href="https://github.com/chaabimohamed" target="_blank" class="btn social-icon">
@@ -615,6 +615,7 @@ I am currently studying full-stack web development.
     </div>
 </section>
 
+
 <section id="education" class="py-5">
     <div class="container">
         <h3 class="text-center">Education</h3>
@@ -830,13 +831,13 @@ I am currently studying full-stack web development.
             <div class="card h-100">
                 
                 <div class="card-header">
-                    <a href="./blogs/howicreatethis/">
+                    <a href="./cv/blogs/howicreatethis/">
                         <img src="./images/post1.png" class="card-img-top" alt="How did I create this site with Hugo">
                     </a>
                 </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="./blogs/howicreatethis/" class="primary-font card-title">
+                    <a href="./cv/blogs/howicreatethis/" class="primary-font card-title">
                         <h5 class="card-title bg-transparent" title="How did I create this site with Hugo">How did I create this …</h5>
                     </a>
                     <div class="card-text secondary-font">
@@ -845,7 +846,7 @@ I am currently studying full-stack web development.
                 </div>
                 <div class="mt-auto card-footer">
                     <span class="float-start">January 28, 2023</span>
-                    <a href="./blogs/howicreatethis/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <a href="./cv/blogs/howicreatethis/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -912,7 +913,7 @@ I am currently studying full-stack web development.
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
             <div class="pb-2">
-                <a href="https://chaabimohamed.github.io/" title="Mohamed Chaabi">
+                <a href="https://chaabimohamed.github.io/cv" title="Mohamed Chaabi">
                     <img alt="Footer logo" src=""
                         height="40px" width="40px">
                 </a>
@@ -931,14 +932,13 @@ I am currently studying full-stack web development.
             </div>
         </div>
     </div>
-</div>
-</footer><script src="./bootstrap-5/js/bootstrap.bundle.min.js"></script>
+</div></footer><script src="./bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
     } else if (localStorage.getItem("pref-theme") === "light") {
         document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -959,20 +959,6 @@ I am currently studying full-stack web development.
         return new bootstrap.Tooltip(tooltipTriggerEl)
     })
 
-</script>
-
-<script>
-    let loadingIcons;
-
-    function loading() {
-        myVar = setTimeout(showPage, 100);
-    }
-
-    function showPage() {
-        try{
-            document.getElementById("loading-icons").style.display = "block";
-        } catch(err) {}
-    }
 </script>
 
 
