@@ -272,9 +272,9 @@ Also, you can use Hugo to make a site at a low cost if you use it with GitHub as
 <li>Hosting the Hugo site on GitHub</li>
 </ol>
 <h3 id="static-sites">Static sites</h3>
-<p>Web development begins with the static site; in general, static sites are those that do not use a programming language (link in Wikipedia) or database (the same thing) in the backend.A site that uses a programming language and a database is referred to as &ldquo;dynamic.&quot;(Here is a dynamic vs. static site article that can help you.)</p>
-<p>A static site generator is a tool that makes static sites fun and easy to build, as well as flexible to changes that you want to make every time without touching the code.</p>
-<p>So, using this tool, you can create a fast site while also making it more dynamic and responsive to changes.<br>
+<p>Web development begins with the static site, in general <a href="https://en.wikipedia.org/wiki/Static_web_page">static sites</a> are those that do not use a programming language or database in the backend.A site that uses a programming language and a database is referred to as <a href="https://www.spiralytics.com/blog/what-are-dynamic-websites/">dynamic</a>
+A static site generator is a tool that makes static sites fun and easy to build, as well as flexible to changes that you want to make every time without touching the code.
+So, using this tool, you can create a fast site while also making it more dynamic and responsive to changes.<br>
 In web development, we have many SSGs like Gasby and Hugo.</p>
 <h3 id="how-static-site-generator-work-">How static site generator work ?</h3>
 <p>A static site generator is a tool that generates a full static HTML website based on raw data and a set of templates. A static site generator, in essence, automates the task of coding individual HTML pages and makes those pages ready to serve to users ahead of time. Because these HTML pages are pre-built, they can load very quickly in users&rsquo; browsers.
@@ -294,9 +294,9 @@ hugo v0.110.0-e32a493b7826d02763c3b79623952e625402b168+extended linux/amd64 Buil
 ├── content             | &#39;Your website&#39;s content, such as articles&#39;
 ├── data                | 
 ├── layouts             |
-├── public              |
+├── public              | &#39;Where Hugo generates your static site&#39;
 ├── static              | &#39;All non-HTML files, such as cv.pdf&#39;
-└── themes              | 
+└── themes              | &#39;Themes that your site base on&#39;
 </code></pre><p>Download <a href="https://themes.gohugo.io/themes/hugo-profile/">Theme Profile</a>
 <em>NB:</em> Make sure that you have the profile theme in the themes folder so you can use it.
 Add the following to the config.toml file:
