@@ -29,7 +29,7 @@
 
 
 <meta property="og:title" content="How did I create this site with Hugo" />
-<meta property="og:description" content="Hugo is the best choice to build a simple static site, and of course, Hugo is the most popular static site generator, which has a great community that believes in it and supports making it as good as possible. Hugo is also using Markdown, which makes building static sites fast, flexible, and easy to modify. Also, you can use Hugo to make a site at a low cost if you use it with GitHub as a host and connect it with your domain name from a domain name provider such as GoDaddy, with no cost if you use GitHub Pages." />
+<meta property="og:description" content="Hugo is the best choice to build a simple static site, and of course, Hugo is one of the most popular static site generator, which has a great community that believes in it and supports making it as good as possible. Hugo is also using Markdown, which makes building static sites fast, flexible, and easy to modify. Also, you can use Hugo to make a site at a low cost if you use it with GitHub as a host and connect it with your domain name from a domain name provider such as GoDaddy, with no cost if you use GitHub Pages." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://chaabimohamed.github.io/blogs/howicreatethis/" /><meta property="article:section" content="blogs" />
 <meta property="article:published_time" content="2023-01-28T22:37:08+01:00" />
@@ -37,7 +37,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="How did I create this site with Hugo"/>
-<meta name="twitter:description" content="Hugo is the best choice to build a simple static site, and of course, Hugo is the most popular static site generator, which has a great community that believes in it and supports making it as good as possible. Hugo is also using Markdown, which makes building static sites fast, flexible, and easy to modify. Also, you can use Hugo to make a site at a low cost if you use it with GitHub as a host and connect it with your domain name from a domain name provider such as GoDaddy, with no cost if you use GitHub Pages."/>
+<meta name="twitter:description" content="Hugo is the best choice to build a simple static site, and of course, Hugo is one of the most popular static site generator, which has a great community that believes in it and supports making it as good as possible. Hugo is also using Markdown, which makes building static sites fast, flexible, and easy to modify. Also, you can use Hugo to make a site at a low cost if you use it with GitHub as a host and connect it with your domain name from a domain name provider such as GoDaddy, with no cost if you use GitHub Pages."/>
 
 
 <link rel="stylesheet" href="../../bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="../../css/header.css" media="all">
@@ -262,29 +262,27 @@ How did I create this site with Hugo | Mohamed Chaabi
           </div>
           
           <article class="page-content  p-2">
-          <p>Hugo is the best choice to build a simple static site, and of course, Hugo is the most popular static site generator, which has a great community that believes in it and supports making it as good as possible. Hugo is also using <a href="https://www.markdownguide.org/">Markdown</a>, which makes building static sites fast, flexible, and easy to modify.
+          <p>Hugo is the best choice to build a simple static site, and of course, Hugo is one of the most popular static site generator, which has a great community that believes in it and supports making it as good as possible. Hugo is also using <a href="https://www.markdownguide.org/">Markdown</a>, which makes building static sites fast, flexible, and easy to modify.
 Also, you can use Hugo to make a site at a low cost if you use it with GitHub as a host and connect it with your domain name from a domain name provider such as GoDaddy, with no cost if you use <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">GitHub Pages</a>.</p>
 <p>In this post, I will show you how I created this site using Hugo and a theme named <a href="https://themes.gohugo.io/themes/hugo-profile/">Profile</a>.</p>
 <ol>
 <li>What are static sites, and how do they work?</li>
 <li>static site generator</li>
 <li>Site structure in Hugo</li>
-<li>Hosting the Hugo site on GitHub</li>
 </ol>
+<!-- 4. Hosting the Hugo site on GitHub -->
 <h3 id="static-sites">Static sites</h3>
-<p>Web development begins with the static site, in general <a href="https://en.wikipedia.org/wiki/Static_web_page">static sites</a> are those that do not use a programming language or database in the backend.A site that uses a programming language and a database is referred to as <a href="https://www.spiralytics.com/blog/what-are-dynamic-websites/">dynamic</a>
+<p>Web development begins with the static site, in general <a href="https://en.wikipedia.org/wiki/Static_web_page">static sites</a> are those that do not use a programming language or database in the backend. A site that uses a programming language and a database is referred to as <a href="https://www.spiralytics.com/blog/what-are-dynamic-websites/">dynamic</a><br>
 A static site generator is a tool that makes static sites fun and easy to build, as well as flexible to changes that you want to make every time without touching the code.
-So, using this tool, you can create a fast site while also making it more dynamic and responsive to changes.<br>
-In web development, we have many SSGs like Gasby and Hugo.</p>
+So using this tool, you can create a fast site while also making it more dynamic and responsive to changes.</p>
+<!-- In web development, we have many SSGs like Gasby and Hugo. -->
 <h3 id="how-static-site-generator-work-">How static site generator work ?</h3>
-<p>A static site generator is a tool that generates a full static HTML website based on raw data and a set of templates. A static site generator, in essence, automates the task of coding individual HTML pages and makes those pages ready to serve to users ahead of time. Because these HTML pages are pre-built, they can load very quickly in users&rsquo; browsers.
+<p>A static site generator is a tool that generates a full static HTML website based on raw data and a set of templates. A static site generator, in essence automates the task of coding individual HTML pages and makes those pages ready to serve to users ahead of time. Because these HTML pages are pre-built, they can load very quickly in users&rsquo; browsers.
 <a href="https://www.cloudflare.com/learning/performance/static-site-generator/">More</a></p>
 <h3 id="hugo">Hugo</h3>
 <p><a href="https://gohugo.io/installation/">installing Hugo</a>  on your OS and run this command.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo version
-</span></span></code></pre></div><pre tabindex="0"><code>example@name:~$ hugo version
-hugo v0.110.0-e32a493b7826d02763c3b79623952e625402b168+extended linux/amd64 BuildDate=2023-01-17T12:16:09Z VendorInfo=gohugoio
-</code></pre><p>Now we need to <strong>create a new project</strong>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ hugo version
+</span></span></code></pre></div><p>Now we need to <strong>create a new project</strong>.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site myFirstPost
 </span></span></code></pre></div><pre tabindex="0"><code>.
 ├── archetypes          |
@@ -295,10 +293,10 @@ hugo v0.110.0-e32a493b7826d02763c3b79623952e625402b168+extended linux/amd64 Buil
 ├── data                | 
 ├── layouts             |
 ├── public              | &#39;Where Hugo generates your static site&#39;
-├── static              | &#39;All non-HTML files, such as cv.pdf&#39;
+├── static              | &#39;All non-HTML files, such as images ...&#39;
 └── themes              | &#39;Themes that your site base on&#39;
 </code></pre><p>Download <a href="https://themes.gohugo.io/themes/hugo-profile/">Theme Profile</a>
-<em>NB:</em> Make sure that you have the profile theme in the themes folder so you can use it.
+<em>NB:</em> Make sure that you have the hugo-profile theme in the themes folder so you can use it.
 Add the following to the config.toml file:
 <em>NB:</em> You can copy config.yml from /profile/exampleSite/config.yml to your site directory.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">theme</span>=<span style="color:#e6db74">&#39;profile&#39;</span> <span style="color:#75715e"># if you have config.yml - theme:&#39;profile&#39;</span>
@@ -322,7 +320,8 @@ Add the following to the config.toml file:
     └── profile
 </code></pre><p>Now run this command and open <a href="http://localhost:1313/">the link</a> to show the modification that you made in the config.yaml</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo serve
-</span></span></code></pre></div>
+</span></span></code></pre></div><p>I hope this post helps you!</p>
+
           </article>
         </div>
       </div>
@@ -446,7 +445,7 @@ Add the following to the config.toml file:
                         <h5 class="card-title bg-transparent" title="How did I create this site with Hugo">How did I create this …</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p>Hugo is the best choice to build a simple static site, and of course, Hugo is the most popular static site generator, which has a great community that believes in it and supports making it as good as possible. Hugo is also using Markdown, which makes building static sites fast, flexible, and easy to …</p>
+                        <p>Hugo is the best choice to build a simple static site, and of course, Hugo is one of the most popular static site generator, which has a great community that believes in it and supports making it as good as possible. Hugo is also using Markdown, which makes building static sites fast, flexible, and …</p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
@@ -518,10 +517,7 @@ Add the following to the config.toml file:
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
             <div class="pb-2">
-                <a href="https://chaabimohamed.github.io/" title="Mohamed Chaabi">
-                    <img alt="Footer logo" src=""
-                        height="40px" width="40px">
-                </a>
+                
             </div>
             &copy; 2023  All Rights Reserved
             <div class="text-secondary">
